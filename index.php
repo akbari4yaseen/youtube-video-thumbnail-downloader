@@ -28,7 +28,7 @@
   </head>
   <body>
     <main class="container">
-      <form action="<? echo $_SERVER["PHP_SELF"]; ?>" method="post">
+      <form action="<? echo $_SERVER['PHP_SELF']; ?>" method="post">
         <header>Thumbnail Downloader</header>
         <div class="url-input">
           <span class="title">Paste your url here:</span>
